@@ -1,6 +1,4 @@
-// ignore: depend_on_referenced_packages
-//import 'package:first_app/week3.dart';
-import 'package:firstapp1/week3.dart';
+import 'package:firstapp1/AssignmentWeek5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,13 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      debugShowCheckedModeBanner: false,
-      home: MyWidget(),
-    );
+    return MaterialApp(home: Assignmentweek5());
   }
 }
