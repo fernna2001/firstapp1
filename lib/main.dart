@@ -1,5 +1,5 @@
-import 'package:firstapp1/AssignmentWeek5.dart';
 import 'package:flutter/material.dart';
+import 'package:firstapp1/page/simple_custom_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Assignmentweek5());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SimpleCustomWidget(),
+    );
   }
 }
