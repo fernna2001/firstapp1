@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firstapp1/page/simple_custom_widget.dart';
+import 'package:firstapp1/page/traffic_light.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,8 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      home: TrafficLight(),
       debugShowCheckedModeBanner: false,
-      home: SimpleCustomWidget(),
     );
   }
 }
